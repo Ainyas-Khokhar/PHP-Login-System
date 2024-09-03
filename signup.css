@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.main{
+min-height: 100vh;
+min-width: 100%;
+/* background-color: aquamarine; */
+background-image: url(img2.jpg);
+display: flex;
+justify-content: center;
+align-items: center;
+backdrop-filter: blur(2px);
+
+}
+.work{
+width: 500px;
+height: 450px;
+/* background-color: aqua; */
+/* background-image: url(img1.jpg); */
+box-shadow: 0px 0px 5px black;
+backdrop-filter: blur(10px);
+/* background-size: cover; */
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+
+}
+h1{
+    text-align: center;
+
+
+}
+input{
+    padding: 20px;
+}
+.inputbox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    position: relative;
+}
+.inputbox input{
+    border: none;
+    background: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+.inputbox label{
+    margin-top: 15px;
+    font-weight: bold;
+}
+.fa-user{
+    position: absolute;
+    left: 240px;
+    top: 28px;
+
+
+}
+.fa-envelope{
+    position: absolute;
+    left: 240px;
+    top: 84px;
+}
+.fa-check{
+    position: absolute;
+    left: 240px;
+    top: 185px;
+}
+.fa-lock{
+    position: absolute;
+    left: 240px;
+    top: 134px;
+}
+
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  
+    
+}
+.btn button{
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: tahoma;
+    /* font-weight: bold; */
+    cursor: pointer;
+    color: white;
+    background-color: rgb(75, 69, 69);
+}
+.btn button:hover{
+    background-color: black;
+    color: red;
+}
+.login{
+    /* background-color: black; */
+    /* color: white; */
+    font-weight: bolder;
+    text-decoration: underline;
+    
+}
+.login a{
+    color: rgb(223, 5, 5);
+    margin-left: 10px;
+}
+.terms{
+font-weight: bold;
+}
